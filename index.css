@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    margin: 0;
+}
+
+
+h1{ font-size:  3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+
+button{
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 15px;
+      border: 1px solid rgba(0,0,0,0.5);
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+      color: white;
+      background-color: rgba(199, 9, 47, 0.925)
+}
+
+button:hover{
+    background-color: rgb(150, 1, 1)
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.FASTER{
+    color: rgba(232, 90, 2, 0.911)
+}
+
+.color-acento{
+    color: rgba(41, 24, 7, 0.993)
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.titulofast{
+    color: rgba(232, 90, 2, 0.911)
+}
+
+.titulochef{
+    color: rgba(41, 24, 7, 0.993)
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+header a:hover{
+    color: rgba(232, 90, 2, 0.911)
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(imagenprincipalfastchef.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestras-recetas{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+
+#nuestras-recetas .container {
+    padding: 100px 12px;
+}
+
+#nuestras-recetas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestras-recetas p{
+    display: none;
+}
+
+#nuestras-recetas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(comidarapida.jpg);
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(comidafacil.jpg);
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(tilinguey.jpg);
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#estas-listo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#estas-listo h2{
+    font-size: 9vw;
+}
+
+#estas-listo button{
+    font-size: 5vw;
+}
+
+#estas-listo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(estaslisto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#estas-listo h1{
+    color: white;
+}
+
+#estas-listo button{
+    font-size: 1.75em;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
